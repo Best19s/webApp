@@ -25,7 +25,7 @@
       h2 {
          text-align: center;
       }
-      
+
    </style>
    <?php
    $host = "localhost";
@@ -66,7 +66,7 @@
 
       ?>
       <div class="btn">
-         <input type="submit" value="Check">
+         <input type="submit" name="movie" value="Check">
          <input type="submit" name="clear" value="Clear">
       </div>
    </form>
