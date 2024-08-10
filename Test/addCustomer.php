@@ -26,7 +26,7 @@
       }
       mysqli_close($conn);
       // header("Location: index.php");
-      // echo "<script> alert('Data Insert Successfully!') </script>";
+      echo "<script> alert('Data Insert Successfully!') </script>";
       echo "<script> window.location.href = 'index.php'</script>";
    ?>
 

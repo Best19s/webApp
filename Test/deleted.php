@@ -14,7 +14,8 @@
 
    if ($conn) {
       if ($_SERVER["REQUEST_METHOD"] == "POST") {
-         if (isset($_POST["delete"]) == "delete") {
+
+         if (isset($_POST["delete"])) {
             foreach($_POST["delete"] as $id) {
                $sql = "DELETE FROM customers WHERE id = $id";
                $result = mysqli_query($conn,$sql);
@@ -23,7 +24,7 @@
       }
    }
    mysqli_close($conn);
-   // echo "<script> alert('Data Deleted Successfully!') </script>";
+   echo "<script> alert('Data Deleted Successfully!') </script>";
    echo "<script> window.location.href = 'index.php'</script>";
 
    ?>

@@ -59,8 +59,8 @@
          <label for="">ชื่อ:</label>
          <input type="text" name="input_name" id="name" required> <br>
          <label for="">อีเมลล์:</label>
-         <input type="text" name="input_email" id="email" required>
-         <input type="submit" name="submit" value="Submit" onclick="alert('Data Insert Successfully!')">
+         <input type="text" name="input_email" id="email">
+         <input type="submit" name="submit" value="Submit">
       </form>
    </fieldset>
 
@@ -92,7 +92,7 @@
 
          ?>
       </table>
-      <input type="submit" value="Delete" id="delete" onclick="alert('Data Deleted!')">
+      <input type="submit" value="Delete" id="delete">
 
    </form>
 
